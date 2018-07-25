@@ -12,6 +12,12 @@ npm install
 npm start
 ```
 
+## Development
+
+```sh
+node_modules/.bin/probot simulate pull_request test/fixtures/pull_request.open.json ./index.js
+```
+
 ## Contributing
 
 If you have suggestions for how ivan-probot could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
