@@ -5,7 +5,7 @@ const printPayload = context => {
 }
 
 const handlePullRequestOpenedEvent = async context => {
-  printPayload(context)
+  // printPayload(context)
   await warnLargePullRequest(context)
 }
 
